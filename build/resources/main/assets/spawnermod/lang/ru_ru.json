@@ -1,0 +1,27 @@
+{
+	"item.spawnermod.spawner_key": "Ключ Спауна",
+	
+	"button.count.default": "Количество: обичные",
+	"button.count.low": "Количество: Низкое",
+	"button.count.high": "Количество: Высокое",
+	"button.count.very_high": "Количество: очень высокое",
+	"button.count.disabled": "Подсчет отключен",
+	
+	"button.speed.default": "Скорость: по умолчанию",
+	"button.speed.low": "Скорость: Медленная",
+	"button.speed.high": "Скорость: быстрая",
+	"button.speed.very_high": "Скорость: очень быстрая",
+	"button.speed.disabled": "Скорость отключена",
+	
+	"button.range.default": "Дальность: Дальний",
+	"button.range.low": "Диапазон: по умолчанию",
+	"button.range.high": "Дальность: Очень далеко",
+	"button.range.very_high": "Диапазон: Extreme",
+	"button.range.disabled": "Диапазон отключен",
+	"button.range.custom": "Custom range",
+	
+	"button.save": "Сохранить",
+	"button.cancel": "Отмена",
+	
+	"tooltip.spawnermod.spawner_key_disabled": "Ключ генератора отключен"
+}

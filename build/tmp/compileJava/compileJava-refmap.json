@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "com/branders/spawnermod/mixin/SpawnerRangeMixin": {
+      "isNearPlayer(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/BaseSpawner;m_151343_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z",
+      "load": "Lnet/minecraft/world/level/BaseSpawner;m_151328_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/nbt/CompoundTag;)V",
+      "save": "Lnet/minecraft/world/level/BaseSpawner;m_186381_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+      "Lnet/minecraft/nbt/CompoundTag;getShort(Ljava/lang/String;)S": "Lnet/minecraft/nbt/CompoundTag;m_128448_(Ljava/lang/String;)S",
+      "Lnet/minecraft/nbt/CompoundTag;putShort(Ljava/lang/String;S)V": "Lnet/minecraft/nbt/CompoundTag;m_128376_(Ljava/lang/String;S)V"
+    },
+    "com/branders/spawnermod/mixin/LimitedSpawnsMixin": {
+      "load": "Lnet/minecraft/world/level/BaseSpawner;m_151328_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/nbt/CompoundTag;)V",
+      "serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V": "Lnet/minecraft/world/level/BaseSpawner;m_151311_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V",
+      "Lnet/minecraft/server/level/ServerLevel;levelEvent(ILnet/minecraft/core/BlockPos;I)V": "Lnet/minecraft/server/level/ServerLevel;m_46796_(ILnet/minecraft/core/BlockPos;I)V",
+      "save": "Lnet/minecraft/world/level/BaseSpawner;m_186381_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+      "Lnet/minecraft/nbt/CompoundTag;getShort(Ljava/lang/String;)S": "Lnet/minecraft/nbt/CompoundTag;m_128448_(Ljava/lang/String;)S",
+      "Lnet/minecraft/world/entity/EntityType;by(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/Optional;": "Lnet/minecraft/world/entity/EntityType;m_20637_(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/Optional;",
+      "Lnet/minecraft/nbt/CompoundTag;putShort(Ljava/lang/String;S)V": "Lnet/minecraft/nbt/CompoundTag;m_128376_(Ljava/lang/String;S)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/branders/spawnermod/mixin/SpawnerRangeMixin": {
+        "isNearPlayer(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/BaseSpawner;m_151343_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z",
+        "load": "Lnet/minecraft/world/level/BaseSpawner;m_151328_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/nbt/CompoundTag;)V",
+        "save": "Lnet/minecraft/world/level/BaseSpawner;m_186381_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+        "Lnet/minecraft/nbt/CompoundTag;getShort(Ljava/lang/String;)S": "Lnet/minecraft/nbt/CompoundTag;m_128448_(Ljava/lang/String;)S",
+        "Lnet/minecraft/nbt/CompoundTag;putShort(Ljava/lang/String;S)V": "Lnet/minecraft/nbt/CompoundTag;m_128376_(Ljava/lang/String;S)V"
+      },
+      "com/branders/spawnermod/mixin/LimitedSpawnsMixin": {
+        "load": "Lnet/minecraft/world/level/BaseSpawner;m_151328_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/nbt/CompoundTag;)V",
+        "serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V": "Lnet/minecraft/world/level/BaseSpawner;m_151311_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V",
+        "Lnet/minecraft/server/level/ServerLevel;levelEvent(ILnet/minecraft/core/BlockPos;I)V": "Lnet/minecraft/server/level/ServerLevel;m_46796_(ILnet/minecraft/core/BlockPos;I)V",
+        "save": "Lnet/minecraft/world/level/BaseSpawner;m_186381_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+        "Lnet/minecraft/nbt/CompoundTag;getShort(Ljava/lang/String;)S": "Lnet/minecraft/nbt/CompoundTag;m_128448_(Ljava/lang/String;)S",
+        "Lnet/minecraft/world/entity/EntityType;by(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/Optional;": "Lnet/minecraft/world/entity/EntityType;m_20637_(Lnet/minecraft/nbt/CompoundTag;)Ljava/util/Optional;",
+        "Lnet/minecraft/nbt/CompoundTag;putShort(Ljava/lang/String;S)V": "Lnet/minecraft/nbt/CompoundTag;m_128376_(Ljava/lang/String;S)V"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: spawnermod
+Specification-Vendor: Branders, G2806(extras)
+Specification-Version: 1
+Implementation-Title: enhanced-mob-spawners-forge
+Implementation-Version: 1.9.3
+Implementation-Vendor: Branders, G2806(extras)
+Implementation-Timestamp: 2025-10-06T04:20:39-0500
+MixinConfigs: spawnermod.mixins.json
+

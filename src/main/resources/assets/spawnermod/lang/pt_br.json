@@ -1,0 +1,32 @@
+{
+	"item.spawnermod.spawner_key": "Chave de Gerador",
+	
+	"button.count.default": "Contagem: Padr�o",
+	"button.count.low": "Contagem: Baixa",
+	"button.count.high": "Contagem: Alta",
+	"button.count.very_high": "Contagem: Muita Alta",
+	"button.count.disabled": "Contagem Desativada",
+	
+	"button.speed.default": "Velocidade: Padr�o",
+	"button.speed.low": "Velocidade: Lenta",
+	"button.speed.high": "Velocidade: R�pida",
+	"button.speed.very_high": "Velocidade: Muito R�pida",
+	"button.speed.disabled": "Velocidade Desativada",
+	
+	"button.range.default": "Alcance: Longe",
+	"button.range.low": "Alcance: Padr�o ",
+	"button.range.high": "Alcance: Muito Longe",
+	"button.range.very_high": "Alcance: Extremo",
+	"button.range.disabled": "Alcance Desativado",
+	"button.range.custom": "Custom range",
+	
+	"button.toggle.enabled": "Gerador: Ligado",
+	"button.toggle.disabled": "Gerador: Desligado",
+	
+	"button.save": "Salvar",
+	"button.cancel": "Cancelar",
+	
+	"tooltip.spawnermod.spawner_key_disabled": "A Chave de Gerador est� desativada",
+	
+	"gui.spawnermod.spawner_config_screen_title": "Configura��o do Gerador"
+}

@@ -1,0 +1,46 @@
+{
+	"item.spawnermod.spawner_key": "Spawner Key",
+	
+	"button.count.default": "Count: Default",
+	"button.count.low": "Count: Low",
+	"button.count.high": "Count: High",
+	"button.count.very_high": "Count: Very High",
+	"button.count.disabled": "Count disabled",
+	
+	"button.speed.default": "Speed: Default",
+	"button.speed.low": "Speed: Slow",
+	"button.speed.high": "Speed: Fast",
+	"button.speed.very_high": "Speed: Very Fast",
+	"button.speed.disabled": "Speed disabled",
+	
+	"button.range.default": "Range: Far",
+	"button.range.low": "Range: Default",
+	"button.range.high": "Range: Very far",
+	"button.range.very_high": "Range: Extreme",
+	"button.range.disabled": "Range disabled",
+	"button.range.custom": "Custom range",
+	
+	"button.toggle.enabled": "Spawner: ON",
+	"button.toggle.disabled": "Spawner: OFF",
+	
+	"button.save": "Save",
+	"button.cancel": "Cancel",
+	"button.upgrade_precise": "Upgrade to Precise",
+
+	"button.delay.very_fast": "Delay: Very Fast (1s)",
+	"button.delay.fast": "Delay: Fast (2.5s)",
+	"button.delay.default": "Delay: Default (5s)",
+	"button.delay.slow": "Delay: Slow (10s)",
+	"button.delay.very_slow": "Delay: Very Slow (20s)",
+
+	"tooltip.spawnermod.spawner_key_disabled": "Spawner key is disabled",
+
+	"gui.spawnermod.spawner_config_screen_title": "Spawner Config",
+	"gui.spawnermod.precise_spawner_config_screen_title": "Precise Spawner Config",
+
+	"text.precise_spawner.mob_alive": "Status: Mob Alive",
+	"text.precise_spawner.no_mob": "Status: Ready to Spawn",
+	"text.precise_spawner.spawn_egg_hint": "Use ANY spawn egg to change mob type",
+
+	"block.spawnermod.precise_spawner": "Precise Spawner"
+}

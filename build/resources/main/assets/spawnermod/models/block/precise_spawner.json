@@ -1,0 +1,8 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/spawner",
+  "textures": {
+    "particle": "minecraft:block/spawner",
+    "texture": "minecraft:block/spawner"
+  }
+}
